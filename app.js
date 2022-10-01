@@ -1,5 +1,13 @@
 import React from 'react';
 
 export default function app({ name }) {
-  return <div id="name">{name}</div>;
+  function click() {
+    alert(name);
+  }
+
+  return (
+    <div id="name" onClick={click()}>
+      {name}
+    </div>
+  );
 }
