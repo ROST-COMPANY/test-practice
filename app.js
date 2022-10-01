@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function app() {
-  return <div></div>;
+export default function app({ name }) {
+  return <div id="name">{name}</div>;
 }
