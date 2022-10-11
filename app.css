@@ -5,3 +5,7 @@ body {
 #name {
   font-weight: 700;
 }
+
+button {
+  background-color: tomato;
+}
