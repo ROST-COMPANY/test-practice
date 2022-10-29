@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./styles/index.css" rel="stylesheet" />
+    <script src="./js/index.js" type="text/javascript" defer></script>
     <title>Rost: Login</title>
   </head>
   <body>
@@ -14,16 +15,16 @@
         <div class="inputWrapper">
           <div class="wrapper">
             <img class="icon" src="./assets/idIcon.png" alt="icon" />
-            <input class="id" placeholder="아이디" />
+            <input id="id" class="id" placeholder="아이디" />
             <div class="infoText">이메일 입력</div>
           </div>
           <div class="wrapper">
             <img class="icon" src="./assets/pwIcon.png" alt="icon" />
-            <input class="pw" type="password" placeholder="비밀번호" />
+            <input id="pw" class="pw" type="password" placeholder="비밀번호" />
             <div class="infoText">영문, 숫자 조합. 8~12자리</div>
           </div>
         </div>
-        <button class="btn">로그인</button>
+        <button id="loginBtn" class="btn">로그인</button>
       </div>
       <div class="copyRight">© 2018 COPYRIGHT © ROST.ALL RIGHTS RESERVED.</div>
     </div>
